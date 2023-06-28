@@ -2,91 +2,120 @@
 <head>
     <title>民雄美食地圖</title>
     <style>
-        .type1-border{
-            border-width: 5px;
-            border-style: dashed;
-            border-color: cadetblue;
-            border-radius: 10%;
-        }
         h2{
-            background-color: black;
-            color: gray;
+            background-color: gray;
+            color: black;
         }
-        .ugly1{
-            background-color: purple;
-            color: greenyellow;
+        .font-ugly0{
+            font-family: 'AR PL UMing TW';
+            font-weight: 700;
+            color: purple;
         }
-        .ugly2{
-            background-color: red;
-            color: gold;
+        .font-ugly1{
+            font-family: 'Droid Sans Fallback';
+            font-weight: 700;
+            color: brown;
+        }
+        
+        /*實作 0 在這裡設*/
+        .border-type1{
+            border-style: dotted;
+            border-color: bisque;
+            border-width: 5px;
         }
     </style>
-
 </head>
 
+<body style="background-color: ivory; font-family: 'AR PL UKai CN';">
+    <h1 style="background-color: black; color: white; font-size: 50px;"> 民雄美食地圖  </h1>
 
-<body style="background-color: khaki; font-family: '標楷體';">
 
-    <h1 style="color: gray; font-size: 50px;">民雄美食地圖</h1> 
-    
+    <h2 style="font-weight: 900;">中吃7-11 中正大學門市</h2>
+    <img src="https://lh5.googleusercontent.com/p/AF1QipMSYB6GaaDZa8oKAbeWFAaII0_nCgkBH9xWWxee=w426-h240-k-no"  style="float: left; height: 125px;">
+
     <p>
-        <h2 style="font-weight: 600px;">中吃7-11 中正大學門市</h2>
-        <div>
-            <img  style="float: left;" src="https://lh5.googleusercontent.com/p/AF1QipMSYB6GaaDZa8oKAbeWFAaII0_nCgkBH9xWWxee=w426-h240-k-no">
-            <br>
-
-            <a href="https://goo.gl/maps/mymsESS21a5jmCwi8?coh=178571&entry=tt">路痴救星Google map</a>
-        </div>
-
-        <div>
-            <ol style="background-color: rgba(180, 55, 13, 0.5);">
-                <li><u>          連鎖便利商店</u></li>
-                <li><b>          販售</b>外帶<i>美食</i>、飲品，以及各種書報攤商品。</li>
-                <li><del>        中正大學附近少數美食餐廳</del></li>
-            </ol>
-            <table class="ugly2 type1-border">
-                <tr>
-                    <th rowspan="3">不同巧克力內的<br>可可含量及購買建議</th>
-                    <td></td>
-                    <th>白巧克力</th>
-                    <th>牛奶巧克力</th>
-                    <th>黑巧克力</th>
-                </tr>
-                <tr>
-                    <td>可可 </td>
-                    <td>0~10%</td>
-                    <td>25%~35%</td>
-                    <td>35%up</td>
-                </tr>
-                <tr>
-                    <td>意見</td>
-                    <td>難吃</td>
-                    <td>讚讚</td>
-                    <td>真香</td>
-                </tr>
-            </table>
-        </div>
-
-        <hr>
+        <a href="https://goo.gl/maps/mymsESS21a5jmCwi8?coh=178571&entry=tt">路痴救星Google map</a><br>
+        Always Open, 7-Eleven<br>
+        連鎖便利商店<br>
+        販售外帶美食、飲品，以及各種書報攤商品。<br>
+        比全家好吃一百倍<br>
+        絕對衷心推薦
     </p>
+    
+    <!--實作 0 在這裡用-->
+    <ol class="border-type1" style="background-color:rgba(222, 184, 135, 0.5);">
+        <li class="font-ugly0">
+            <u>服務選項</u>
+            <ul>
+                <li>v 來店取貨</li>
+                <li>v 店內購物</li>
+                <li>v 當天到貨服務</li>
+            </ul>
+        </li>
+
+        <li class="font-ugly1">
+            <b>無障礙程度</b>
+            <ul>
+                <li>v 無障礙入口</li>    
+                <li>x 無障礙停車場</li>
+            </ul>
+        </li>
+
+        <li class="font-ugly0"><i>回收: 玻璃瓶、電子產品、電池</i></li>
+
+        <li class="font-ugly1">
+            <b><i><u>付款方式</u></i></b>
+            <ul>
+                <li>v 信用卡</li>
+                <li>v NFC 行動支付</li>
+            </ul>
+        </li>
+
+        <li class="font-ugly0"><del>中正大學附近少數美食餐廳</del></li>
+    </ol>
+    
+    <table>
+        <tr>
+            <th rowspan="3">不同巧克力內的<br>可可含量及購買建議</th>
+            <td></td>
+            <th>白巧克力</th>
+            <th>牛奶巧克力</th>
+            <th>黑巧克力</th>
+        </tr>
+        <tr>
+            <td>可可 </td>
+            <td>0~10%</td>
+            <td>25%~35%</td>
+            <td>35%up</td>
+        </tr>
+        <tr>
+            <td>意見</td>
+            <td>難吃</td>
+            <td>讚讚</td>
+            <td>真香</td>
+        </tr>
+    </table>
+
+    <hr>
 
     <p>
         <h2>小吃全家 民雄旺萊店</h2>
-
         <img src="https://lh5.googleusercontent.com/p/AF1QipPZQEt0IDaroTLnfzVSeVWSYhxR2OZ29fIDMO3B=w408-h306-k-no">
         <br>
 
         <a href="https://goo.gl/maps/pNqEsKh6wi3LKkZD9?coh=178571&entry=tt">路痴救星Google map</a>
-        
-
-        <ul class="ugly1">
-            <li>服務選項: 外送、來店取貨、店內購物、當天到貨服務</li>
-            <li>配有無障礙入口</li>
-            <li>回收玻璃瓶、電子產品、電池</li>
-            <li>中正大學附近少數美食餐廳</li>
-        </ul>
-        <hr>
+        <br>
+        全家就是你家<br>
     </p>
+    <ul>
+        <li>服務選項: 外送、來店取貨、店內購物、當天到貨服務</li>
+        <li>配有無障礙入口</li>
+        <li>回收: 玻璃瓶、電子產品、電池</li>
+        <li>付款方式: 現金、簽帳金融卡、NFC 行動支付</li>
+        <li>中正大學附近少數美食餐廳</li>
+    </ul>
+    <hr>
+
 
     <p>
         <h2>123活力早餐屋</h2>
@@ -94,13 +123,16 @@
         <br>
 
         <a href="https://goo.gl/maps/bj6ZLe7PfbPFsXxx8?coh=178571&entry=tt">路痴救星Google map</a>
-        <ul>
-            <li>學長說睡醒後活力123還開著就算早上</li>
-            <li>可能因為就在宿舍外所以常常很多人</li>
-            <li>小櫻桃很可愛</li>
-        </ul>
-        <hr>
+        <br>
+        學長說睡醒後活力123還開著就算早上<br>
     </p>
+    <ul>
+        <li>服務選項: 室外雅座、外帶、內用</li>
+        <li>特色: <b><i>快速服務</i></b></li>
+        <li>小櫻桃很可愛</li>
+    </ul>
+    <hr>
+
 
     <p>
         <h2>食販夜茶室</h2>
@@ -108,13 +140,17 @@
         <br>
 
         <a href="https://goo.gl/maps/rD7Pfb6yjSBAKy5d6?coh=178571&entry=tt">路痴救星Google map</a>
-        <ul>
-            <li>這陣子新開的店家</li>
-            <li>營業時間09:00~02:00完全符合我的作息</li>
-            <li>賣飲料、炸物、早午晚餐宵夜等</li>
-        </ul>
-        <hr>
-    </p>    
+        <br>
+        暖心販食 好茶相隨<br>
+        營業時間09:00~02:00完全符合我的作息<br>
+    </p>
+    <ul>
+        <li>服務選項: 店外取貨、無接觸送餐服務、外送、外帶、內用</li>
+        <li>所以到底是手搖飲店、炸物店、賣早午餐、還是晚餐宵夜呢???</li>
+        <li><del>外送的茶等於外送茶嗎</del></li>
+    </ul>
+    <hr>
+    
 
     <p>
         <h2>百田中西式早午餐</h2>
@@ -122,13 +158,16 @@
         <br>
 
         <a href="https://goo.gl/maps/YrGH3c4wzmgKY92C7?coh=178571&entry=tt">路痴救星Google map</a>
-        <ul>
-            <li>中正附近首屈一指<b>慢</b>的早餐店</li>
-            <li>內用1小時 等餐占50分</li>
-        </ul>
-        <hr>
+        <br>
+        早餐店速度之最<br>
     </p>
+    <ul>
+        <li>中正附近首屈一指<i>慢</i></li>
+        <li>用餐經驗分享: 內用1小時 等餐占50分</li>
+    </ul>
+    <hr>
 
+    
 </body>
 
 </html>
